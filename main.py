@@ -6,6 +6,12 @@ def mostrar_menu():
 def mostrar_mensagem():
     print('Bem-Vindo!')
 
+def cadastrar_produto(produtos):
+    nome = input("Nome do produto: ")
+    preco = float(input("preco do produto: "))
+
+    print("produto cadastrado com sucesso!")
+    
     mostrar_menu()
 
 opcao = input("Escolha: ")
